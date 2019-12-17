@@ -1,0 +1,37 @@
+
+<h1 mat-dialog-title style="margin-left: 30%;font-size: 25px;
+    font-weight: 400;
+    font-family: initial;
+    color: purple;"> User Profile</h1>
+<div mat-dialog-content>
+  <table>
+  <tr >
+    <th class="theader">Name:</th>
+    <td>{{user.user.screen_name}}</td>
+  </tr>
+  <tr>
+    <th >Location:</th>
+    <td>{{user.user.location}}</td>
+  </tr>
+  <tr>
+    <th >URL:</th>
+    <td>{{user.user.url}}</td>
+  </tr>
+  <tr>
+    <th >No of Followers:</th>
+    <td>{{user.user.followers_count}}</td>
+  </tr>
+  <tr>
+    <th >No of Friends:</th>
+    <td>{{user.user.friends_count}}</td>
+  </tr>
+  <tr>
+    <th >Date of Creation:</th>
+    <td>{{user.user.created_at}}</td>
+  </tr>
+  <tr>
+    <th >No of Favorites:</th>
+    <td>{{user.user.favourites_count}}</td>
+  </tr>
+</table>
+</div>

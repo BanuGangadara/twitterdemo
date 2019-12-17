@@ -1,0 +1,36 @@
+.sidenav-container {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.sidenav {
+  width: 200px;
+}
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.grid-container {  
+  margin: 20px;  
+}  
+.dashboard-card {  
+  position: absolute;  
+  top: 15px;  
+  left: 15px;  
+  right: 15px;  
+  bottom: 15px;  
+}  
+.more-button {  
+  position: absolute;  
+  top: 5px;  
+  right: 10px;  
+}  
+.dashboard-card-content {  
+  text-align: center;  
+}
